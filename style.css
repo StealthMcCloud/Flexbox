@@ -1,7 +1,9 @@
 aside {
-    background-color: tan;
+    background-image: url(Pictures/eevee.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     text-align: center;
-    border: 4px solid black;
+    border: 10px outset pink;
     border-radius: 8px;
     height: 300px;
     max-height: 60%;
@@ -21,7 +23,7 @@ justify-content: space-around;
 }
 
 body {
-    background-color: aliceblue;
+    background-color: gray;
 }
 
 img {
@@ -41,7 +43,7 @@ img {
     }
     .container2 img {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
     }
 
 }
